@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tjänster - Inre Bilrekond</title>
+    <style>
+        /* Grundläggande stil */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        /* Navigeringsfält */
+        nav {
+            background-color: #1a252f;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav ul li a:hover {
+            color: #1abc9c;
+        }
+        /* Sektionsstil */
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            flex: 1;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 10px;
+        }
+        .service-block {
+            background-color: #f8f9fa;
+            border-left: 5px solid #1abc9c;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .service-block h2 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .price {
+            font-weight: bold;
+            color: #16a085;
+            font-size: 1.2rem;
+        }
+        /* Sidfot / Bottenlänk */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f2f6;
+            margin-top: auto;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #2c3e50;
+            text-decoration: underline;
+        }
+        footer a:hover {
+            color: #1abc9c;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigeringsfält -->
+    <nav>
+        <div class="logo">🧽 Bilrekond</div>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="services.html">Tjänster</a></li>
+            <li><a href="about.html">Om mig</a></li>
+        </ul>
+    </nav>
+
+    <!-- Innehåll för Tjänster -->
+    <div class="container">
+        <h1>Mina Tjänster</h1>
+        <p>Jag erbjuder noggrann och professionell invändig rengöring för alla typer av bilar. Jag fokuserar helt på att göra din kupé fläckfri och fräsch.</p>
+
+        <div class="service-block">
+            <h2>Liten Bil (t.ex. Småbilar / Halvkombi)</h2>
+            <p>En komplett invändig genomgång som inkluderar dammsugning, avtorkning av paneler och fönsterputs.</p>
+            <p class="price">Pris: [Ditt pris här] kr</p>
+        </div>
+
+        <div class="service-block">
+            <h2>Stor Bil (t.ex. Kombi / SUV)</h2>
+            <p>En djupgående invändig rengöring anpassad för större kupéutrymmen och bagageutrymmen.</p>
+            <p class="price">Pris: [Ditt pris här] kr</p>
+        </div>
+    </div>
+
+    <!-- Sidfot med intern forskningslänk -->
+    <footer>
+        <p>Besök gärna min <a href="forskning.html">forskningssida</a> där jag gör allt som rekommenderas.</p>
+    </footer>
+
+</body>
+</html>

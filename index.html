@@ -1,15 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First GitHub Website</title>
+    <title>Inre Bilrekond</title>
     <style>
-        body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+        /* Grundläggande stil */
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        /* Navigeringsfält */
+        nav {
+            background-color: #1a252f;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo {
+            color: #fff;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        nav ul li a:hover {
+            color: #1abc9c;
+        }
+        /* Huvudsektion */
+        .hero {
+            background-color: #f8f9fa;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            color: #555;
+            max-width: 600px;
+            margin: 0 auto 25px auto;
+        }
+        /* Knapp */
+        .cta-button {
+            display: inline-block;
+            background-color: #1abc9c;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background-color: #16a085;
+        }
     </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my brand new website hosted on github pages!</p>p
-  </body>
+
+    <!-- Navigeringsfält (utan kontakt) -->
+    <nav>
+        <div class="logo">🧽 Bilrekond</div>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="services.html">Tjänster</a></li>
+            <li><a href="about.html">Om mig</a></li>
+        </ul>
+    </nav>
+
+    <!-- Huvudinnehåll -->
+    <div class="hero">
+        <h1>Inre Bilrekond</h1>
+        <p>Jag rekondar bilar invändigt för att få kupén att se ut och kännas helt som ny igen.</p>
+        <a href="services.html" class="cta-button">Se tjänster</a>
+    </div>
+
+</body>
 </html>
